@@ -23,7 +23,7 @@ export default function ExpensePanel() {
       </button>
       {isOpen && user && (
         <div className="mt-4 p-4 border rounded bg-gray-100">
-          <h3 className="text-lg font-semibold">Thông tin chi tiêu</h3>
+          <h3 className="text-lg font-semibold">Thông tin chi tiêu </h3>
           <ul className="mt-2">
             {expenses.map((expense) => (
               <li key={expense.id} className="text-gray-700">
